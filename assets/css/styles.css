@@ -317,8 +317,7 @@ body{
 /* Estilos generales {Sobre mí, estudios} */
 
 .content__about,
-.content__resume,
-.content__portfolio
+.content__resume
 {
     display: block;
     height: 100%;
@@ -329,8 +328,7 @@ body{
 }
 
 .about__header,
-.resume__header,
-.portfolio__header
+.resume__header
 {
     margin-bottom: 4.5rem;
 }
