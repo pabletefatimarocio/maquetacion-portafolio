@@ -354,19 +354,21 @@ body{
     flex-direction: row;
     width: 100%;
     margin-bottom: 5rem;
+    gap: 3rem;
 }
 
-.personal-info_description{
+.personal-info__description{
     font-size: 1.5rem;
     line-height: 2.4rem;
+    text-align: justify;
 }
 
 .personal-info__bio{
-    flex-basis: 55%;
+    flex-basis: 56%;
 }
 
 .personal-info__data{
-    flex-basis: 15%;
+    flex-basis: 14%;
     padding: 0 1.5rem;
 }
 
