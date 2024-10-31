@@ -600,7 +600,7 @@ body{
 .certificates__container{
     display:  flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     gap: 4rem;
 }
 
