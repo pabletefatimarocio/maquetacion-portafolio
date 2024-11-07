@@ -604,6 +604,11 @@ body{
     gap: 4rem;
 }
 
+.certificates__certificate:hover{
+    transform: translateY(-3px);
+    box-shadow: 8px 8px 20px #444;
+}
+
 .certificates__certificate{
     flex-basis: calc(50% -3rem);
     border: 2px solid var(--color-background-certificate);
@@ -611,10 +616,14 @@ body{
 
     display: flex;
     flex-direction: row;
+
+    transition: all 200ms ease-in-out;
+    box-shadow: 1px 1px 1px #444;
 }
 
 .certificate__image{
     width: 100%;
+   
 }
 
 
@@ -627,6 +636,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-radius: 0.8rem;
 }
 
 .certificate__content{
