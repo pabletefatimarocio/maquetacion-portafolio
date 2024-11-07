@@ -571,14 +571,13 @@ body{
     border-radius: 1rem;
 }
 
-.skills__percentage--p1{width: 90%;}
+.skills__percentage--p1{width: 80%;}
 .skills__percentage--p2{width: 60%;}
-.skills__percentage--p3{width: 30%;}
-.skills__percentage--p4{width: 80%;}
-.skills__percentage--p5{width: 70%;}
-.skills__percentage--p6{width: 90%;}
-.skills__percentage--p7{width: 70%;}
-.skills__percentage--p8{width: 80%;}
+.skills__percentage--p3{width: 90%;}
+.skills__percentage--p4{width: 70%;}
+.skills__percentage--p5{width: 80%;}
+.skills__percentage--p6{width: 80%;}
+
 
 
 .knowledges__list{
