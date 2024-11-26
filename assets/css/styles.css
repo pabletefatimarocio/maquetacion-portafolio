@@ -708,6 +708,7 @@ body{
   }
   
   .portfolio__card:hover .card__details {
+    background-color:#22222296;
     opacity: 1;
 
   }
@@ -768,5 +769,5 @@ body{
   
   .card__button:hover {
     background-color: var(--color-principal);
-    color: var(--color-background);
+    color: var(--color-titles);
   }
