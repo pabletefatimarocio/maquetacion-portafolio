@@ -325,7 +325,8 @@ body{
     min-height: 100%;
     padding: 6rem;
     padding-right: 3rem;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .about__header,
@@ -653,6 +654,7 @@ body{
     display: block;
     font-size: 1.3rem;
     color: var(--color-subtitle);
+    line-break: anywhere;
 }
 
 .certificate__date{
@@ -663,8 +665,10 @@ body{
 /* Blog  */
 .blog__image-container{
     height:auto;
-    width: 40rem;
+    width: 100%;
+    max-width: 40rem;
     position: relative;
+    margin: 0 auto;
 }
 
 .blog__image-container::after{
@@ -690,6 +694,7 @@ body{
   }
   
   .portfolio__card {
+    min-width: 300px;
     width: 45%;
     padding: 0.3rem;
     border: 2px solid var(--color-icon);
@@ -751,6 +756,7 @@ body{
   }
   
   .card__text {
+    font-size: 1.2rem;
   }
   
   .card__buttons-container {
@@ -768,6 +774,6 @@ body{
   }
   
   .card__button:hover {
-    background-color: var(--color-principal);
+    background-color: var(--color-principal); 
     color: var(--color-titles);
   }
