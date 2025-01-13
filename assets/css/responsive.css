@@ -69,3 +69,25 @@
     }
 }
 
+@media (max-width: 585px){
+    .about__personal-info{
+        flex-direction: column-reverse;
+    }
+
+    .personal-info__data{
+        flex-basis: 100%;
+        padding: 0;
+    }
+
+    .services__container{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .services__service{
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+}
+
